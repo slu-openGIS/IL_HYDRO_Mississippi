@@ -1,9 +1,11 @@
-# IL_HYDRO_ISLANDS
-## Mississippi River Islands in Illinois
+# IL_HYDRO_ISLANDS <img src="https://slu-dss.github.io/img/gisLogoSm.png" align="right" />
+## Mississippi River in Illinois
 
+![](https://img.shields.io/badge/extent-Madison%20and%20St.%20Clair%20Counties,%20IL-red.svg)
+![](https://img.shields.io/badge/category-physical%20geography-orange.svg)
 [![](https://img.shields.io/github/release/slu-openGIS/IL_HYDRO_Mississippi.svg?label=version)](https://github.com/slu-openGIS/IL_HYDRO_Mississippi/releases)
 [![](https://img.shields.io/github/last-commit/slu-openGIS/IL_HYDRO_Mississippi.svg)](https://github.com/slu-openGIS/IL_HYDRO_Mississippi/commits/master)
-[![](https://img.shields.io/github/repo-size/slu-openGIS/IL_HYDRO_Mississippi.svg)](https://github.com/slu-openGIS/IL_HYDRO_Mississippi)
+![](https://img.shields.io/github/repo-size/slu-openGIS/IL_HYDRO_Mississippi.svg)
 
 ### Abstract
 The Census TIGER hydrology data is released by county, so bodies of water that lie between jurisdictions end up split. This shapefile contains data on the extent of the Mississippi River in Madison and St. Clair counties for the length of the City of St. Louis. These data can be previewed interactively using the [`.geoJSON` file in this repository](https://github.com/slu-openGIS/IL_HYDRO_Mississippi/blob/master/geoJSON/IL_HYDRO_Mississippi.geoJSON).
@@ -12,7 +14,7 @@ The Census TIGER hydrology data is released by county, so bodies of water that l
 The [`gateway` package](https://github.com/slu-openGIS/gateway) can be used to download and import these data as a simple feature object:
 
 ```r
-city <- gateway::gw_download("IL_HYDRO_Mississippi")
+city <- gateway::gw_get_repo("IL_HYDRO_Mississippi")
 ```
 
 ## About the SLU DSS
