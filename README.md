@@ -1,4 +1,4 @@
-# IL_HYDRO_Islands <img src="https://slu-dss.github.io/img/gisLogoSm.png" align="right" />
+# IL_HYDRO_Mississippi <img src="https://slu-dss.github.io/img/gisLogoSm.png" align="right" />
 ## Mississippi River in Illinois
 
 [![](https://img.shields.io/badge/extent-Madison%20and%20St.%20Clair%20Counties,%20IL-red.svg)](https://github.com/slu-openGIS/IL_HYDRO_Mississippi/)
